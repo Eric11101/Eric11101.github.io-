@@ -9,9 +9,9 @@ cloneContainer.classList.remove('active');
 const toggleIcons = document.querySelectorAll('.toggle-icon');
 const icons = document.querySelectorAll('.toggle-icon i');
 const darkContainer = document.querySelector('#dark-container');
-const darkContainerImg = document.querySelector('#dark-container .home-img img');
+const darkContainerImg = document.querySelector('#dark-container .profile-container img');
 
-darkContainerImg.src = 'C:/Users/Eric/Pictures/Camera Roll/prof.jpg';
+darkContainerImg.src = 'https://drive.google.com/thumbnail?id=1C_PRM0MUUFSTzswJN-908Uw-1NavcRIS&sz=s800';
 
 
 toggleIcons.forEach(toggle => {

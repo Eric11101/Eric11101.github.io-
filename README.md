@@ -1,4 +1,4 @@
-How your website accomplished each item in the criteria:
+<!-- How your website accomplished each item in the criteria: -->
 
 I'd say its fair
 
