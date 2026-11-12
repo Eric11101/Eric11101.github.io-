@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="" width=device-width, initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ericson Cruz's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 </head>
 
 <body>
@@ -17,10 +16,12 @@
             <a href="#" class="logo">Eric</a>
 
             <nav class="navbar">
-                <a href="#">Home</a>
+                <a href="#" class="active">Home</a>
                 <a href="#about">About</a>
                 <a href="#education">Education</a>
                 <a href="#skills">Skills</a>
+                <a href="#software-dev">Software Dev (1st-4th)</a>
+                <a href="#practicum">Practicum</a>
                 <a href="#projects">Certificates</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -28,33 +29,28 @@
             <div class="toggle-icon">
                 <i class='bx bxs-moon'></i>
             </div>
-
         </header>
 
         <section class="home">
             <div id="home" class="home-content">
-
                 <h1>It's, Ericson Cruz</h1>
                 <h3>Welcome to my <span>WEB </span></h3>
                 <p>Welcome to my portfolio. I specialize in cybersecurity, networking, and system 
                     administration—building secure, reliable, and efficient systems. Here, you'll 
-                    find the projects and skills that reflect my work and growth in the IT field. </p>
+                    find the projects, software developments, and skills that reflect my work and growth in the IT field.</p>
 
                 <a href="assets/CruzEricson_CV.pdf" class="btn" download>Download CV</a>
-
-
             </div>
 
             <div class="profile-wrapper">
                 <div class="profile-container">
                     <img src="https://drive.google.com/thumbnail?id=1Qifu_S66iHfBWc_cULosiOcXFm59g5Ra&sz=s800" 
-                    alt="Professional Profile Photo Placeholder" 
+                    alt="Professional Profile Photo" 
                     class="profile-img">
                 </div>
             </div>
-
-
         </section>
+
         <section id="about" class="about-section">
             <div class="about-container">
                 <h2>About Me</h2>
@@ -62,10 +58,10 @@
                     <p>
                         I am currently taking a Bachelor of Science in Information Technology, specializing in cybersecurity.
                          Throughout my studies, I’ve gained hands-on experience in networking, virtualization, system administration,
-                          ethical hacking, and applied cryptography. I also explore web development, focusing on front-end interfaces,
-                           and have some experience working with IoT projects. I enjoy building secure, efficient, and practical technological
-                            solutions. My goal is to continuously grow as an IT professional and apply my skills to create systems that are reliable,
-                             user-friendly, and resilient.
+                         ethical hacking, and applied cryptography. I also explore web development, focusing on front-end interfaces,
+                         and have some experience working with IoT projects. I enjoy building secure, efficient, and practical technological
+                         solutions. My goal is to continuously grow as an IT professional and apply my skills to create systems that are reliable,
+                         user-friendly, and resilient.
                     </p>
                     <div class="stats-grid">
                         <div class="stat-item">
@@ -90,16 +86,15 @@
                 <h2 class="section-title">Education</h2>
 
                 <div class="education-list">
-
                     <!-- Degree 1 -->
                     <div class="edu-card">
                         <div class="edu-image">
-                            <img src="https://the-post-cdn.sgp1.digitaloceanspaces.com/2020/11/University-of-Perpetual-Help-Molino-Campus.jpg" alt="Stanford University">
+                            <img src="https://the-post-cdn.sgp1.digitaloceanspaces.com/2020/11/University-of-Perpetual-Help-Molino-Campus.jpg" alt="University of Perpetual Help">
                         </div>
 
                         <div class="edu-content">
                             <div class="edu-header">
-                                <h3>Junior High School to Senior HighSchool</h3>
+                                <h3>Junior High School to Senior High School</h3>
                                 <span class="year-badge">2016 — 2022</span>
                             </div>
 
@@ -118,13 +113,13 @@
                     <!-- Degree 2 -->
                     <div class="edu-card">
                         <div class="edu-image">
-                            <img src="https://storage.googleapis.com/bukas-website-v3-prd/website_v3/images/MMCL_Logo.original.png" alt="UT Austin">
+                            <img src="https://storage.googleapis.com/bukas-website-v3-prd/website_v3/images/MMCL_Logo.original.png" alt="Mapua Malayan Colleges Laguna">
                         </div>
 
                         <div class="edu-content">
                             <div class="edu-header">
                                 <h3>Bachelor of Science in Information Technology</h3>
-                                <span class="year-badge">2022</span>
+                                <span class="year-badge">2022 — Present</span>
                             </div>
 
                             <p class="school-name">Mapua Malayan Colleges Laguna</p>
@@ -140,18 +135,16 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-
 
         <section id="skills" class="skills-section">
             <div class="skills-container">
                 <h2>Core Competencies</h2>
 
                 <div class="skills-grid">
-                    <!-- Data Science & ML -->
+                    <!-- Cybersecurity -->
                     <div class="skill-card purple">
                         <h3>Cybersecurity & Information Assurance</h3>
                         <ul>
@@ -162,7 +155,7 @@
                         </ul>
                     </div>
 
-                    <!-- Software Engineering -->
+                    <!-- Systems Admin -->
                     <div class="skill-card blue">
                         <h3>Systems & Network Administration</h3>
                         <ul>
@@ -173,7 +166,7 @@
                         </ul>
                     </div>
 
-                    <!-- Cloud & DevOps -->
+                    <!-- Software Dev -->
                     <div class="skill-card green">
                         <h3>Software Development & Programming</h3>
                         <ul>
@@ -197,9 +190,155 @@
                     </div>
                 </div>
             </div>
+        </section>  
+
+        <!-- SOFTWARE DEVELOPED (1st TO 4th YEAR) SECTION -->
+        <section id="software-dev" class="software-dev-section">
+            <div class="project-container">
+                <h2>Software Developed </h2>
+                
+                <!-- Machine Problems Category -->
+                <div style="margin-bottom: 50px;">
+                    <h3 style="color: #4f46e5; font-size: 24px; margin-bottom: 20px; border-left: 4px solid #4f46e5; padding-left: 10px;">Machine Problems & Academic Assignments</h3>
+                    
+                    <div class="project-card" style="margin-bottom: 30px;">
+                        <div class="project-content">
+                            <h3>Data Structures & Algorithms Management Utility</h3>
+                            <p><strong>Discussion of Features:</strong> Implemented custom linked lists, binary search trees, and dynamic sorting algorithms with a command-line interface and graphical utility wrappers to evaluate memory management efficiency.</p>
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>Visual Studio</span>
+                                <span>Algorithms</span>
+                            </div>
+                            <div style="margin-top: 15px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
+                                <div style="background: #f3f4f6; padding: 10px; border-radius: 8px; text-align: center;">
+                                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&q=80" alt="GUI Screenshot 1" style="width: 100%; height: 130px; object-fit: cover; border-radius: 4px;">
+                                    <span style="font-size: 12px; color: #666; display: block; margin-top: 5px;">GUI: Data Sorting Interface</span>
+                                </div>
+                                <div style="background: #f3f4f6; padding: 10px; border-radius: 8px; text-align: center;">
+                                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" alt="GUI Screenshot 2" style="width: 100%; height: 130px; object-fit: cover; border-radius: 4px;">
+                                    <span style="font-size: 12px; color: #666; display: block; margin-top: 5px;">GUI: Tree Traversal Visualizer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Capstone Project Category -->
+                <div>
+                    <h3 style="color: #4f46e5; font-size: 24px; margin-bottom: 20px; border-left: 4px solid #4f46e5; padding-left: 10px;">Capstone Project</h3>
+                    
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>ECOSCRAP: A Mobile Application for Plastic Recyclable Scraps Integration For Mores Scrap Trading</h3>
+                            <p><strong>Discussion of Features:</strong> EcoScrap is a Flutter mobile application with an AI-powered recyclable plastic detector that connects residents, collectors, and a junkshop to make plastic waste collection and recycling faster, easier, and more organized.</p>
+                            <div class="project-tags">
+                                <span>Flutter / Dart</span>
+                                <span>Firebase Firestore</span>
+                                <span>Encryption</span>
+                                <span>Image Detection</span>
+                                <span>Maps SDK</span>
+                            </div>
+                            <p style="font-size: 14px; color: #555; margin-top: 10px;"><strong>Software Used:</strong> Flutter, Dart, Firebase, Python</p>  
+                            
+                            <div style="margin-top: 15px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
+                                <div style="background: #f3f4f6; padding: 10px; border-radius: 8px; text-align: center;">
+                                    <img src="https://lh3.googleusercontent.com/d/1I-s9HVQK7Np0q2oggKShmVo35s9DboeW" alt="Capstone GUI 1" style="width: 100%; height: 130px; object-fit: cover; border-radius: 4px;">
+                                    <span style="font-size: 12px; color: #666; display: block; margin-top: 5px;">GUI: Mobile App Dashboard</span>
+                                </div>
+                                <div style="background: #f3f4f6; padding: 10px; border-radius: 8px; text-align: center;">
+                                    <img src="https://lh3.googleusercontent.com/d/1cEfpjez3KMgWsGf3Nl8icvFToRNf2ia0" alt="Capstone Hardware Setup" style="width: 100%; height: 130px; object-fit: cover; border-radius: 4px;">
+                                    <span style="font-size: 12px; color: #666; display: block; margin-top: 5px;">Hardware: Sensor Node Integration</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 style="color: #4f46e5; font-size: 24px; margin-bottom: 20px; border-left: 4px solid #4f46e5; padding-left: 10px;"> Developed at Concentrix </h3>
+                    
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Concentrix Nuvali Directory</h3>
+                            <p><strong>Discussion of Features:</strong> The project is a native Windows touchscreen kiosk for visitors at Concentrix Nuvali, paired with a separate staff 
+                                Content Manager for updating the information shown on the kiosk. Both apps are built with Flutter and Dart and use local JSON and media files. The deployed
+                                 apps are designed to work without a server or internet connection.</p>
+                            <div class="project-tags">
+                                <span>Flutter / Dart</span>
+                                <span>Json</span>
+                            </div>
+                            <p style="font-size: 14px; color: #555; margin-top: 10px;"><strong>Software Used:</strong> Flutter, Dart, Json</p>
+                            
+                            <div style="margin-top: 15px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
+                                <div style="background: #f3f4f6; padding: 10px; border-radius: 8px; text-align: center;">
+                                    <img src="https://lh3.googleusercontent.com/d/11eqipbZNPJthwSoZx3Ui2LNvRXLQNnjc" alt="Capstone GUI 1" style="width: 100%; height: 130px; object-fit: cover; border-radius: 4px;">
+                                    <span style="font-size: 12px; color: #666; display: block; margin-top: 5px;">Windows SDK</span>
+                                </div>
+                                <div style="background: #f3f4f6; padding: 10px; border-radius: 8px; text-align: center;">
+                                    <img src="https://lh3.googleusercontent.com/d/1LC4jjkce9F1xNFV80yz_YMAWsvQwoZnh" alt="Capstone Hardware Setup" style="width: 100%; height: 130px; object-fit: cover; border-radius: 4px;">
+                                    <span style="font-size: 12px; color: #666; display: block; margin-top: 5px;">Video Display</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
+        <!-- PRACTICUM FINAL REPORT & PORTFOLIO SECTION -->
+        <section id="practicum" class="practicum-section" style="padding: 80px 20px;">
+            <div class="project-container">
+                <h2>Practicum Final Report & Portfolio</h2>
+                
+                <!-- 1. Overview -->
+                <div class="project-card" style="margin-bottom: 30px; padding: 25px;">
+                    <h3 style="color: #4f46e5; margin-bottom: 12px; font-size: 22px;">1. Overview of the Practicum Engagement</h3>
+                    <p style="color: #4b5563; line-height: 1.6; margin-bottom: 10px;">
+                        <strong>Host Company:</strong> Concentrix | <strong>Total Hours Rendered:</strong> 486
+                    </p>
+                    <p style="color: #4b5563; line-height: 1.6;">
+                        Provided immersive support across enterprise network administration, vulnerability evaluation, and system maintenance tasks, bridging academic theory with professional deployment standards.
+                    </p>
+                </div>
 
+                <!-- 2. Presentation of Output -->
+                <div class="project-card" style="margin-bottom: 30px; padding: 25px;">
+                    <h3 style="color: #4f46e5; margin-bottom: 12px; font-size: 22px;">2. Presentation of Output</h3>
+                    <p style="color: #4b5563; line-height: 1.6; margin-bottom: 15px;">
+                        Detailed discussion and task logs for assigned operational modules:
+                    </p>
+                    <ul style="color: #4b5563; padding-left: 20px; line-height: 1.6;">
+                        <li><strong>Module 1:</strong> VLAN Segmentation & Switch Configuration</li>
+                        <li><strong>Module 2:</strong> Automated Security Log Parsing Scripts</li>
+                    </ul>
+                </div>
+
+                <!-- 3. Synthesis -->
+                <div class="project-card" style="margin-bottom: 30px; padding: 25px;">
+                    <h3 style="color: #4f46e5; margin-bottom: 12px; font-size: 22px;">3. Synthesis of the Practicum Engagement</h3>
+                    <p style="color: #4b5563; line-height: 1.6;">
+                        The engagement solidified core competencies in enterprise cybersecurity frameworks, structured documentation, collaborative troubleshooting, and technical adaptability.
+                    </p>
+                </div>
+
+                <!-- 4. Appendices -->
+                <div class="project-card" style="padding: 25px;">
+                    <h3 style="color: #4f46e5; margin-bottom: 15px; font-size: 22px;">4. Appendices (Practicum Track Documents)</h3>
+                    <div class="project-tags" style="display: flex; flex-direction: column; gap: 10px;">
+                        <a href="assets/1.0_Competency_Based_CV.pdf" target="_blank" class="project-link">📄 1.0 Competency-Based CV</a>
+                        <a href="assets/2.0_Endorsement_Letter.pdf" target="_blank" class="project-link">📄 2.0 Endorsement Letter</a>
+                        <a href="assets/3.0_Practicum_Acceptance.pdf" target="_blank" class="project-link">📄 3.0 Practicum Acceptance</a>
+                        <a href="assets/4.0_Liability_Waiver.pdf" target="_blank" class="project-link">📄 4.0 Liability Waiver</a>
+                        <a href="assets/5.0_Training_Plan.pdf" target="_blank" class="project-link">📄 5.0 Training Plan</a>
+                        <a href="assets/6.0_Learning_Module_Path.pdf" target="_blank" class="project-link">📄 6.0 Practicum Learning Module Path Proposal</a>
+                        <a href="assets/7.0_Complete_Weekly_Journal.pdf" target="_blank" class="project-link">📄 7.0 Complete Weekly Journal</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
         <section id="projects">
             <div class="project-container">
@@ -207,7 +346,7 @@
                 <div class="projects-grid">
                     <!-- Project 1 -->
                     <div class="project-card">
-                        <img src="https://newsroom.cisco.com/content/dam/r/newsroom/en/us/images/Cisco-Logo-Blue_1200x675.jpg" alt="Credit Risk Model">
+                        <img src="https://newsroom.cisco.com/content/dam/r/newsroom/en/us/images/Cisco-Logo-Blue_1200x675.jpg" alt="CCNA Certificate">
                         <div class="project-content">
                             <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
                             <p>Developed skills in configuring, troubleshooting, and securing small networks. Key areas include mastering virtual LANs (VLANs), inter-VLAN routing, along with implementing and managing both static and dynamic IP routing protocols</p>
@@ -222,7 +361,7 @@
 
                     <!-- Project 2 -->
                     <div class="project-card">
-                        <img src="https://newsroom.cisco.com/content/dam/r/newsroom/en/us/images/Cisco-Logo-Blue_1200x675.jpg" alt="Real-time Analytics Dashboard">
+                        <img src="https://newsroom.cisco.com/content/dam/r/newsroom/en/us/images/Cisco-Logo-Blue_1200x675.jpg" alt="Ethical Hacker Certificate">
                         <div class="project-content">
                             <h3>Ethical Hacker</h3>
                             <p>Developed skills in performing vulnerability assessments, executing penetration tests, and reporting findings to mitigate risks. Key areas of development include information gathering & exploiting wired and wireless networks</p>
@@ -234,10 +373,11 @@
                             <a href="https://www.credly.com/badges/8ffa394d-e6ba-4fdc-863e-424704c6dbea" target="_blank" class="project-link">View Details →</a>
                         </div>
                     </div>
-                    <!---Project3-->
+                    
+                    <!-- Project 3 -->
                     <div class="project-card">
-                       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/2048px-Coursera-Logo_600x600.svg.png" alt="Real-time Analytics Dashboard">
-                        <div class="project-content">
+                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/2048px-Coursera-Logo_600x600.svg.png" alt="IELTS Certificate">
+                         <div class="project-content">
                             <h3>IELTS Reading Section Skills Mastery</h3>
                             <p>Enhanced speed, accuracy, and critical reading skills through IELTS Reading practice, mastering skimming, scanning, paraphrasing, and time management while enhancing vocabulary and comprehension of complex texts.</p>
                             <div class="project-tags">
@@ -248,9 +388,10 @@
                             <a href="https://www.coursera.org/account/accomplishments/verify/A2EI0VZ649F0?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" target="_blank" class="project-link">View Details →</a>
                         </div>
                     </div>
-                    <!---Project 4-->
+                    
+                    <!-- Project 4 -->
                     <div class="project-card">
-                        <img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.png" alt="Credit Risk Model">
+                        <img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.png" alt="Google Cloud Certificate">
                         <div class="project-content">
                             <h3>Google Cloud Computing Foundations Certificate</h3>
                             <p>Built a simple, data-driven application that uses cloud services like Cloud Storage and Firestore</p>
@@ -262,9 +403,10 @@
                             <a href="https://www.credly.com/badges/87b27d41-88eb-4faf-8081-0ffc44a3d41e" target="_blank" class="project-link">View Details →</a>
                         </div>
                     </div>
-                    <!---Project 5-->
+
+                    <!-- Project 5 -->
                     <div class="project-card">
-                        <img src="https://images.credly.com/images/d358c04b-d081-424f-8221-d5d63f76c144/blob" alt="Credit Risk Model">
+                        <img src="https://images.credly.com/images/d358c04b-d081-424f-8221-d5d63f76c144/blob" alt="CompTIA Tech+ Certificate">
                         <div class="project-content">
                             <h3>CompTIA Tech+ Certification</h3>
                             <p>Gained foundational tech literacy to enter entry-level IT roles like help desk or IT support, validate basic computer/network/security knowledge and understanding core concepts.</p>
@@ -272,7 +414,6 @@
                                 <span>Hardware</span>
                                 <span>Software</span>
                                 <span>Networking</span>
-                                <span>Data</span>
                                 <span>Security</span>
                             </div>
                             <a href="https://www.credly.com/badges/04bef8d3-2aec-4a8a-9900-24a08e050da9/public_url" target="_blank" class="project-link">View Details →</a>
@@ -284,7 +425,6 @@
 
         <footer id="contact" class="footer">
             <div class="footer-container">
-
                 <!-- Email -->
                 <div class="footer-email">
                     <i class='bx bx-envelope'></i>
@@ -303,12 +443,8 @@
                     <a href="https://x.com/ericuzzzz?t=rtQnIMrlB4TOLU82xatBXA&s=09" target="_blank"><i class='bx bxl-twitter'></i></a>
                     <a href="https://www.instagram.com/_ric_ruz/" target="_blank"><i class='bx bxl-instagram'></i></a>
                 </div>
-
             </div>
         </footer>
-
-
-
     </div>
 
     <script src="script.js"></script>
